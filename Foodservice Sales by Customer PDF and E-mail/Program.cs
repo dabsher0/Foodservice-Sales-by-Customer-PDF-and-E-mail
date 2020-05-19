@@ -29,12 +29,12 @@ namespace Foodservice_Sales_by_Customer_PDF_and_E_mail
             cr.SetAttachments("D:\\Programs\\Profit by Customer PDF and Email\\Profit by Customer Beverage Bar Auto-Run Updated.pdf");
             cr.SendEmail();
 
-            var crOca = new RunCrystal();
-            crOca.SetSubject("Profit by Customer");
-            crOca.SetToAddress("t.mcginnis@teammodern.com");
-            crOca.SetAttachments("D:\\Programs\\Profit by Customer PDF and Email\\Profit by Customer Beverage Bar Auto-Run Updated OCA.pdf");
-            crOca.SetAttachments("D:\\Programs\\Profit by Customer PDF and Email\\Profit by Customer Foodservice Auto-Run Updated OCA.pdf");
-            crOca.SendEmail();
+            //var crOca = new RunCrystal();
+            //crOca.SetSubject("Profit by Customer");
+            //crOca.SetToAddress("t.mcginnis@teammodern.com");
+            //crOca.SetAttachments("D:\\Programs\\Profit by Customer PDF and Email\\Profit by Customer Beverage Bar Auto-Run Updated OCA.pdf");
+            //crOca.SetAttachments("D:\\Programs\\Profit by Customer PDF and Email\\Profit by Customer Foodservice Auto-Run Updated OCA.pdf");
+            //crOca.SendEmail();
         }
     }
 }
